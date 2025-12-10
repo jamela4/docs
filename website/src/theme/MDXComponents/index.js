@@ -26,6 +26,7 @@ import ReleaseCard from "../../components/Blog/ReleaseCard";
 import Tables from "../../components/Tables";
 import APIBadge from "../../components/APIBadge";
 import InstallHero from "../../components/InstallHero";
+import APIField from "@site/src/components/APIField";
 
 export default {
   ...MDXComponents,
@@ -65,5 +66,6 @@ export default {
   ReleaseCard,
   Tables,
   APIBadge,
-  InstallHero
+  InstallHero,
+  APIField
 };
